@@ -45,6 +45,7 @@ public class Main {
         //Wrapper Classes: ALL primitive dt have Wrapper classes
         //They add functionality to our primitive dt
 
+
         Integer intWrapper = 12345678;
          System.out.println(intWrapper.compareTo(num));
 
@@ -57,33 +58,40 @@ public class Main {
         Boolean booleanWrapper = true;
           System.out.println(booleanWrapper.compareTo(youLyingOrNah));
 
+        System.out.println(" ");
+        System.out.println("End of datatype intro..");
+        System.out.println(" ");
+
         //Scanner Class - used to get info from or through the console
 
         myScanner = new Scanner(System.in);
 
         //When using scanner to get user input
         // we have to prompt the user
-    System.out.println("Welcome to our Java Boot camp");
+         System.out.println("Welcome to our Java Boot camp");
        System.out.println("What's your name??");
 //
         String userName = myScanner.nextLine();
-         ifConditional(userName);
+        System.out.println(" ");
+        ifConditional(userName);
+        System.out.println(" ");
         forLoopConditional();
 
-
-        System.out.println("Heyy " + userName +"!");
+        System.out.println(" ");
+        System.out.println("Heyy again," + userName +"!");
         System.out.println("What's your favorite color?");
 
         String color = myScanner.nextLine();
-        System.out.println(switchConditional(color) + " looks nice on you!");
+        System.out.println("I bet " + switchConditional(color) + " looks nice on you!");
 
-
+        System.out.println(" ");
         System.out.println("End of app - aka end of main method");
     }
 
     //method syntax: access/non-access mod, returnType, methodName(params){//implementaiton logic}
     public static void ifConditional(String userName) {
 
+        System.out.println("If Conditional");
         // if/ if-else statement is probably he most popular logic statement
         // if( conditional statement is true){
         //         logic to be executed if the condition is true
@@ -105,6 +113,7 @@ public class Main {
 
     static void forLoopConditional(){
 
+        System.out.println("For Loop Method");
         //we are creating a local variables
         // in java local variables exist within a method
 
