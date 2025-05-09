@@ -15,7 +15,7 @@ public class LedgerView {
 
     ArrayList<Transaction> transactionHistory = new ArrayList<>();
 
-    ReportView reportView;
+    ReportsView reportView;
 
     //ledgerMenu
     public void ledgerMenu() {
@@ -84,7 +84,7 @@ public class LedgerView {
                     System.out.println(".....................................");
                     System.out.println(" ");
                     System.out.println("___________________________________");
-                    reportView = new ReportView(transactionHistory);
+                    reportView = new ReportsView(transactionHistory);
                     reportView.reportsMenu();
                     break;
 
